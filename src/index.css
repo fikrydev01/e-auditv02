@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================
+   PRINT STYLES UNTUK SURAT HUGERTE EDITOR
+   ========================================= */
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm;
+  }
+
+  body {
+    background: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+
+  .no-print {
+    display: none !important;
+  }
+
+   .print-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.3cm;
+    margin-bottom: 1cm;
+    background: white;
+  }
+
+  /* Tambahkan padding agar isi tidak tertimpa header */
+
+  .print-container {
+    /* padding-top: 5cm !important; */
+    width: 210mm !important;
+    min-height: 297mm !important;
+    box-shadow: none !important;
+    margin: 0 auto !important;
+    page-break-inside: avoid !important;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+  }
+
+  /* --- Konten dari Hugerte Editor --- */
+  .hugerte-content {
+    font-size: 11pt !important;
+    text-align: justify !important;
+    line-height: 1.5 !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  /* --- Atur tabel supaya tidak melewati margin --- */
+  .hugerte-content table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: auto !important;
+  }
+
+  .hugerte-content tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+
+  /* --- Page break otomatis --- */
+  .hugerte-content p,
+  .hugerte-content div,
+  .hugerte-content table {
+    page-break-inside: avoid !important;
+  }
+
+  /* --- Jika kamu mau kontrol manual break --- */
+  .page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+}
+@layer components {
+  /* ===== Layout & Typography ===== */
+  .input {
+     @apply w-full px-3 py-2 border border-gray-300 rounded-lg 
+     focus:ring-2 focus:ring-blue-500 focus:outline-none 
+     text-gray-800 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-700;
+   }
+  .section-container {
+    @apply flex flex-col gap-8 min-h-screen;
+  }
+  .section-body {
+    @apply flex flex-col gap-8 bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 md:p-10;
+  }
+  .text_h1 {
+    @apply text-2xl font-bold text-gray-800 dark:text-white;
+  }
+  .text_h2 {
+    @apply text-xl font-bold text-gray-800 dark:text-white;
+  }
+  .text_h3 {
+    @apply text-lg font-bold text-gray-800 dark:text-white;
+  }
+  .text-dark {
+    @apply text-gray-800 dark:text-white;
+  }
+
+  /* ===== Card ===== */
+  .card {
+    @apply bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl p-6 shadow-lg border border-pink-200/30 dark:border-gray-700/30;
+  }
+  .card-title {
+    @apply text-xl font-bold text-gray-800 dark:text-white mb-4;
+  }
+
+  /* ===== Buttons ===== */
+  .quick-action-btn {
+    @apply p-4 rounded-2xl text-white hover:scale-105 transition-transform duration-200 shadow-lg;
+  }
+  .card-blue {
+    @apply bg-gradient-to-r from-blue-400 to-cyan-400;
+  }
+  .card-green {
+    @apply bg-gradient-to-r from-green-400 to-teal-400 text-white;
+  }
+  .card-purple {
+    @apply bg-gradient-to-r from-purple-400 to-pink-400;
+  }
+  .card-orange {
+    @apply bg-gradient-to-r from-orange-400 to-red-400;
+  }
+
+  /* ===== Table ===== */
+  .table-default {
+    @apply w-full border-collapse rounded-xl overflow-hidden;
+  }
+  .table-default thead {
+    @apply bg-pink-100/50 dark:bg-gray-700/70;
+  }
+  .table-default th {
+    @apply text-left text-sm font-semibold text-gray-700 dark:text-gray-200 px-4 py-3;
+  }
+  .table-default td {
+    @apply text-sm text-gray-600 dark:text-gray-300 px-4 py-3 border-t border-gray-200/50 dark:border-gray-700/50;
+  }
+  .table-default tr:hover td {
+    @apply bg-pink-50/60 dark:bg-gray-800/60;
+  }
+
+  /* ===== Form ===== */
+  .form-group {
+    @apply flex flex-col gap-2;
+  }
+  .form-label {
+    @apply text-sm font-medium text-gray-700 dark:text-gray-300;
+  }
+  .form-input {
+    @apply rounded-xl border border-gray-300 dark:border-gray-700 
+           bg-white dark:bg-gray-900 
+           px-4 py-2 text-gray-800 dark:text-gray-200
+           focus:outline-none focus:ring-2 focus:ring-pink-400 transition;
+  }
+  .form-textarea {
+    @apply rounded-xl border border-gray-300 dark:border-gray-700 
+           bg-white dark:bg-gray-900 
+           px-4 py-2 text-gray-800 dark:text-gray-200
+           focus:outline-none focus:ring-2 focus:ring-pink-400 transition;
+  }
+  .form-select {
+    @apply rounded-xl border border-gray-300 dark:border-gray-700 
+           bg-white dark:bg-gray-900 
+           px-4 py-2 text-gray-800 dark:text-gray-200
+           focus:outline-none focus:ring-2 focus:ring-pink-400 transition;
+  }
+  .form-button {
+    @apply bg-pink-500 hover:bg-pink-600 text-white font-semibold 
+           py-2 px-6 rounded-xl shadow-md transition;
+  }
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes leave {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+}
+
+.animate-enter {
+  animation: enter 0.25s ease-out forwards;
+}
+.animate-leave {
+  animation: leave 0.2s ease-in forwards;
+}

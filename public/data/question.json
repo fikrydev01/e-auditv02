@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "kategori": "Keuangan",
+    "pertanyaan": "Apa dasar hukum pengelolaan keuangan di UIN Syarif Hidayatullah Jakarta?",
+    "jawaban": "Dasar hukum pengelolaan keuangan di UIN Syarif Hidayatullah Jakarta mengacu pada PMA Nomor 25 Tahun 2017 tentang Satuan Pengawas Internal, PMK Nomor 171/PMK.05/2021 tentang Sistem Akuntansi dan Pelaporan Keuangan Pemerintah, serta Peraturan Rektor tentang Pedoman Pengelolaan Keuangan UIN Syarif Hidayatullah Jakarta."
+  },
+  {
+    "id": 2,
+    "kategori": "Keuangan",
+    "pertanyaan": "Bagaimana mekanisme pertanggungjawaban penggunaan dana kegiatan?",
+    "jawaban": "Pertanggungjawaban dana kegiatan dilakukan melalui penyusunan laporan keuangan dan laporan pertanggungjawaban (LPJ) lengkap dengan bukti transaksi sah, disampaikan maksimal 14 hari kerja setelah kegiatan selesai kepada bagian keuangan dan SPI untuk verifikasi."
+  },
+  {
+    "id": 3,
+    "kategori": "Pengadaan",
+    "pertanyaan": "Apa yang dimaksud dengan pengadaan barang dan jasa di lingkungan UIN?",
+    "jawaban": "Pengadaan barang dan jasa adalah kegiatan untuk memperoleh barang/jasa oleh satuan kerja di lingkungan UIN Syarif Hidayatullah Jakarta dengan prinsip efisien, efektif, transparan, dan akuntabel sesuai dengan Peraturan Presiden Nomor 16 Tahun 2018 tentang Pengadaan Barang/Jasa Pemerintah dan perubahannya."
+  },
+  {
+    "id": 4,
+    "kategori": "Pengadaan",
+    "pertanyaan": "Siapa yang berwenang melakukan proses pengadaan di tingkat fakultas?",
+    "jawaban": "Proses pengadaan di tingkat fakultas dilakukan oleh Pejabat Pengadaan atau Pokja Pemilihan yang ditetapkan oleh Kuasa Pengguna Anggaran (KPA), sementara SPI melakukan fungsi pengawasan dan evaluasi kepatuhan prosedur."
+  },
+  {
+    "id": 5,
+    "kategori": "SPI",
+    "pertanyaan": "Apa fungsi utama Satuan Pengawas Internal?",
+    "jawaban": "Fungsi utama SPI adalah memastikan efektivitas pengendalian internal, kepatuhan terhadap regulasi, keandalan pelaporan keuangan, serta efisiensi dan efektivitas operasional di lingkungan UIN Syarif Hidayatullah Jakarta."
+  },
+  {
+    "id": 6,
+    "kategori": "SPI",
+    "pertanyaan": "Apakah SPI berwenang memberikan sanksi?",
+    "jawaban": "SPI tidak memiliki kewenangan menjatuhkan sanksi. SPI hanya memberikan rekomendasi hasil audit atau reviu kepada Rektor dan pihak terkait untuk ditindaklanjuti sesuai ketentuan peraturan perundangan."
+  },
+  {
+    "id": 7,
+    "kategori": "Audit Internal",
+    "pertanyaan": "Apa saja tahapan pelaksanaan audit internal oleh SPI?",
+    "jawaban": "Tahapan audit internal meliputi: (1) perencanaan audit, (2) pelaksanaan audit lapangan, (3) penyusunan laporan hasil audit, (4) penyampaian rekomendasi, dan (5) pemantauan tindak lanjut."
+  },
+  {
+    "id": 8,
+    "kategori": "Audit Internal",
+    "pertanyaan": "Berapa kali audit dilakukan dalam satu tahun?",
+    "jawaban": "SPI melaksanakan audit secara periodik minimal satu kali dalam satu tahun pada setiap unit kerja strategis, serta audit khusus jika ditemukan indikasi penyimpangan atau permintaan dari pimpinan universitas."
+  },
+  {
+    "id": 9,
+    "kategori": "Tindak Lanjut",
+    "pertanyaan": "Apa yang dimaksud dengan tindak lanjut hasil audit?",
+    "jawaban": "Tindak lanjut hasil audit adalah proses perbaikan, klarifikasi, atau pelaksanaan rekomendasi yang disampaikan oleh SPI berdasarkan hasil temuan audit sebelumnya."
+  },
+  {
+    "id": 10,
+    "kategori": "Tindak Lanjut",
+    "pertanyaan": "Siapa yang bertanggung jawab menindaklanjuti hasil audit SPI?",
+    "jawaban": "Unit kerja terkait yang menjadi objek audit bertanggung jawab untuk menindaklanjuti rekomendasi hasil audit dan melaporkannya kembali kepada SPI untuk dilakukan verifikasi tindak lanjut."
+  },
+  {
+    "id": 11,
+    "kategori": "Pengendalian Internal",
+    "pertanyaan": "Apa yang dimaksud dengan pengendalian internal?",
+    "jawaban": "Pengendalian internal adalah proses yang dijalankan oleh pimpinan dan seluruh pegawai untuk memberikan keyakinan memadai atas tercapainya tujuan organisasi, keandalan laporan keuangan, serta kepatuhan terhadap peraturan."
+  },
+  {
+    "id": 12,
+    "kategori": "Pengendalian Internal",
+    "pertanyaan": "Bagaimana peran SPI dalam sistem pengendalian internal?",
+    "jawaban": "SPI berperan melakukan evaluasi atas desain dan efektivitas pengendalian internal, memberikan rekomendasi perbaikan, dan memastikan tindak lanjutnya dilaksanakan dengan baik."
+  },
+  {
+    "id": 13,
+    "kategori": "Keuangan",
+    "pertanyaan": "Apa prinsip utama pengelolaan keuangan universitas?",
+    "jawaban": "Prinsip utama pengelolaan keuangan universitas adalah transparansi, akuntabilitas, efisiensi, efektivitas, dan kepatuhan terhadap peraturan perundangan yang berlaku."
+  },
+  {
+    "id": 14,
+    "kategori": "Pengadaan",
+    "pertanyaan": "Bagaimana SPI melakukan pengawasan terhadap pengadaan barang dan jasa?",
+    "jawaban": "SPI melakukan pengawasan melalui reviu dokumen pengadaan, observasi lapangan, serta evaluasi terhadap kepatuhan prosedural dan nilai manfaat barang/jasa yang diperoleh."
+  },
+  {
+    "id": 15,
+    "kategori": "Regulasi",
+    "pertanyaan": "Apa saja regulasi yang menjadi acuan utama SPI?",
+    "jawaban": "Regulasi utama SPI meliputi PMA Nomor 25 Tahun 2017 tentang SPI, Permenpan RB Nomor 5 Tahun 2008 tentang Pedoman Pengawasan Intern, dan Peraturan Rektor UIN Syarif Hidayatullah Jakarta tentang SPI."
+  },
+  {
+    "id": 16,
+    "kategori": "Audit Kinerja",
+    "pertanyaan": "Apa perbedaan audit keuangan dan audit kinerja?",
+    "jawaban": "Audit keuangan berfokus pada kewajaran laporan keuangan, sedangkan audit kinerja menilai efisiensi, efektivitas, dan ekonomisasi kegiatan serta pencapaian tujuan organisasi."
+  },
+  {
+    "id": 17,
+    "kategori": "Audit Kinerja",
+    "pertanyaan": "Bagaimana SPI menilai efektivitas program kerja unit?",
+    "jawaban": "SPI menilai efektivitas program kerja melalui analisis ketercapaian output, penggunaan anggaran, serta hasil capaian dibandingkan indikator kinerja utama (IKU) universitas."
+  },
+  {
+    "id": 18,
+    "kategori": "Etika dan Kepatuhan",
+    "pertanyaan": "Bagaimana SPI menangani laporan dugaan pelanggaran?",
+    "jawaban": "SPI menerima laporan dugaan pelanggaran melalui kanal resmi universitas, melakukan verifikasi awal, dan melaporkannya kepada Rektor untuk ditindaklanjuti sesuai prosedur."
+  },
+  {
+    "id": 19,
+    "kategori": "Etika dan Kepatuhan",
+    "pertanyaan": "Apakah laporan kepada SPI bersifat rahasia?",
+    "jawaban": "Ya, setiap laporan yang diterima SPI dijamin kerahasiaannya dan hanya digunakan untuk kepentingan pemeriksaan dan tindak lanjut sesuai ketentuan etika audit."
+  },
+  {
+    "id": 20,
+    "kategori": "Audit Khusus",
+    "pertanyaan": "Kapan SPI melakukan audit khusus?",
+    "jawaban": "Audit khusus dilakukan jika ditemukan indikasi penyimpangan, adanya laporan masyarakat, atau permintaan khusus dari Rektor."
+  },
+  {
+    "id": 21,
+    "kategori": "Audit Khusus",
+    "pertanyaan": "Apakah hasil audit khusus bisa dipublikasikan?",
+    "jawaban": "Hasil audit khusus bersifat internal dan hanya disampaikan kepada pimpinan universitas serta pihak terkait untuk keperluan perbaikan tata kelola."
+  },
+  {
+    "id": 22,
+    "kategori": "Manajemen Risiko",
+    "pertanyaan": "Apa peran SPI dalam manajemen risiko universitas?",
+    "jawaban": "SPI berperan menilai kecukupan sistem manajemen risiko, mengevaluasi mitigasi risiko, dan memberikan rekomendasi terhadap area yang memiliki potensi risiko tinggi."
+  },
+  {
+    "id": 23,
+    "kategori": "Keuangan",
+    "pertanyaan": "Bagaimana SPI menilai penggunaan dana hibah?",
+    "jawaban": "SPI melakukan audit dan verifikasi terhadap laporan penggunaan dana hibah untuk memastikan kesesuaian dengan perjanjian dan peraturan keuangan yang berlaku."
+  },
+  {
+    "id": 24,
+    "kategori": "SPI",
+    "pertanyaan": "Apakah SPI bersifat independen?",
+    "jawaban": "Ya. SPI bersifat independen secara fungsional dan bertanggung jawab langsung kepada Rektor, meskipun secara administratif berada dalam struktur universitas."
+  },
+  {
+    "id": 25,
+    "kategori": "Audit Internal",
+    "pertanyaan": "Apa indikator keberhasilan SPI?",
+    "jawaban": "Keberhasilan SPI diukur dari tingkat penyelesaian tindak lanjut hasil audit, peningkatan kepatuhan unit kerja, serta efektivitas pengendalian internal universitas."
+  }
+]
